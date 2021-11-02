@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>Filter Page</title>
+        <link href="page.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header id="header">
+            <div id="logo_main">
+                <h1 id="heading">E!</h1>
+            </div>
+            
+            <div id="social">
+                <a href="https://facebook.com/">
+                    <img src="image/facebook.png" alt="facebook" class="logo"/>
+                </a>&nbsp;
+                <a href="https://youtube.com/">
+                    <img src="image/youtube1.png" alt="youtube" class="logo"/>
+                </a>&nbsp;
+                <a href="https://instagram.com/">
+                    <img src="image/insta.png" alt="youtube" class="logo"/>
+                </a>
+            </div>
+        </header>
+        <div id="main">
+            <h1>Find Best Option for Search</h1>
+            <div id="filter">
+               Filter / Sort
+               <hr/>
+               <div >
+                    <h3>Filters </h3>
+                    <h4>Select location</h4>
+                    <select name="location"  style="width:230px;" id="location">
+                        <option value="Select Location">Select Location</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                    </select>
+                    <h4 >Cusine</h4>
+                    <p class="sub">
+                        <input type="checkbox"/>North-Indian<br/>
+                        <input type="checkbox"/>South-Indian<br/>
+                        <input type="checkbox"/>Chinese<br/>
+                        <input type="checkbox"/>Fast FasFood<br/>
+                        <input type="checkbox"/>Street Food<br/>
+                    </p>
+                    <h4>Cost for two</h4>
+                    <p class="sub">
+                        <input type="radio" id="500" name="cost" value="500">
+                        <label for="500">Less than &#8377;500 </label><br>
+                        <input type="radio" id="1000" name="cost" value="1000">
+                        <label for="1000">&#8377;500 to &#8377;1000</label><br>  
+                        <input type="radio" id="1500" name="cost" value="1500">
+                        <label for="1500">&#8377;1000 to &#8377;1500</label><br>
+                        <input type="radio" id="2000" name="cost" value="2000">
+                        <label for="2000">&#8377;1500 to &#8377;2000</label><br>
+                        <input type="radio" id="2000+" name="cost" value="2000+">
+                        <label for="2000+">&#8377;2000+ </label><br>
+                    </p>
+                    <h4>Sort</h4>
+                    <p class="sub">
+                        <input type="radio" id="low-high" name="cost" value="low-high">
+                        <label for="low-high">Price low to high </label><br>
+                        <input type="radio" id="high-low" name="cost" value="high-low">
+                        <label for="high-low">Price high to low</label><br>
+                    </p>
+                </div>
+            </div>
+            <div id="content">
+                <div class=list_content>
+                   <img  class="image" src="image/northindianchineese.jpg" alt="north indian chineese">
+                   <div class="content_right">
+                        <h3>Pandit Ji Paratha Hut </h3><h4>ShalimarBhag</h4>
+                        shop 44,plot C, Ahok Vihar Phase <br/>2,Chincholi, Delhi-110006,Delhi
+                    </div><br/><br/><hr/>
+                    <div>
+                        <div class="cusineblock">
+                            <h5>CUSINE:</h5>
+                            <h5>COST FOR TWO:</h5>
+                            <div class="cusineblock2">
+                                <h5>North Indain FastFood</h5>
+                                 <h5>200</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=list_content>
+                    <img  class="image" src="image/sifood1.png" alt="South indian chineese">
+                   <div class="content_right">
+                        <h3>Empire Restaurant </h3><h4>MSP</h4>
+                        Thrissur, Kerala-680006<br/>
+                    </div><br/><br/><hr/>
+                    <div>
+                        <div class="cusineblock">
+                            <h5>CUSINE:</h5>
+                            <h5>COST FOR TWO:</h5>
+                            <div class="cusineblock2">
+                                <h5>South Indain Food</h5>
+                                <h5>200</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=list_content>
+                    <img  class="image" src="image/dessert1.png" alt="Dessert">
+                   <div class="content_right">
+                        <h3>Hayat Restaurant </h3><h4>Kochi</h4>
+                        Kerala, 680305,<br/>Fort Kochi Road
+                    </div><br/><br/><hr/>
+                    <div>
+                        <div class="cusineblock">
+                            <h5>CUSINE:</h5>
+                            <h5>COST FOR TWO:</h5>
+                            <div class="cusineblock2">
+                                <h5>Dessert</h5>
+                                <h5>100</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
